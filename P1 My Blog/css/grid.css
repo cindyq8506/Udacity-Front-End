@@ -1,0 +1,39 @@
+/* Index Page */
+
+.page-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "blog"
+    "footer";
+}
+
+
+
+@media screen and (min-width: 480px) {  
+    .card {
+      width: 95%;
+    }   
+}
+
+@media screen and (min-width: 768px) {  
+    .card {
+      width: 40%;
+    }   
+}
+
+@media screen and (min-width: 1024px) {  
+    .card {
+      width: 30%;
+    }   
+}
+
+@media screen and (min-width: 1200px) {  
+    .card {
+      width: 25%;
+    }   
+}

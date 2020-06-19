@@ -1,0 +1,173 @@
+@import url("designsystem.css");
+@import url("grid.css");
+
+/* header */
+.title {
+    text-align: center;
+    color:#3DB15E;
+    grid-area: header;
+}
+
+/* navigation */
+.nav{
+    display: flex;
+    grid-area: nav;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: left;
+    padding-inline-start: 0px;
+}
+
+.subscribe{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.nav-item{
+    list-style-type: none;
+    color: black;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    color: #3DB15E;
+}
+
+
+.nav-link{
+    list-style-type: none;
+    margin: 16px;
+    color: black;
+}
+
+
+/* card */
+
+
+.articles {
+    display: flex;
+    grid-area: blog;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #878787;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px #eee;
+    margin: 16px 16px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h5 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.card-link-1 {
+    color:#0083FD;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.card-type-1 {
+    color:#0083FD;
+}
+
+.card-link-2 {
+    color:#3DB15E;
+}
+
+.card-type-2 {
+    color:#3DB15E;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding-top:24px;
+}
+
+/* navigation */
+.post {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px #eee;
+    margin: 16px 16px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.image-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+.post-image {
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.single-image {
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+/* footer */
+
+footer {
+    grid-area: footer;
+    width: 100%;
+    height: 50px;
+    background-color: #E5E5E5;
+    padding: 16px 16px;
+}
+
+.copyright {
+    text-align: center;
+    color:black
+}

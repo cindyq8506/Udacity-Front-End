@@ -1,0 +1,64 @@
+/* Post Page */
+
+.bio{
+    grid-area: bio;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    width: 40;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.post-image{
+    width: 200px;
+    height: 200px;
+}
+
+.bio-contect{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+@media screen and (min-width: 320px) {
+    .post-container {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 100%;
+      grid-template-rows: 100px 100px 240px 1fr 50px;
+      grid-template-areas:
+      "header"
+      "nav"
+      "bio"
+      "blog"
+      "footer";
+  }  
+      .card {
+        width: 95%;
+      }   
+}
+
+.social-sharing {
+    padding: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.social-icon {
+    margin-left: 12px;
+    width: 30px;
+    height: 30px;
+
+}
+
+

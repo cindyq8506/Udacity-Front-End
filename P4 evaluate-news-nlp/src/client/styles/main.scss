@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+main {
+    padding: 0 30px;
+    display: grid;
+    grid-gap: 30px;
+
+    form {
+        height: 100%;
+    }
+
+    section {
+        height: 100%;
+    }
+}

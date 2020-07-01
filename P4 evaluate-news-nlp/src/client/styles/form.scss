@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+form {
+    input {
+        padding: 5px 25px;
+        line-height: 25px;
+        margin: 10px 0;
+        border-radius: 20px;
+        border: $border-input;
+    }
+
+    #url {
+        width: 90%;
+    }
+
+    .button {
+        background-color: $background-btn;
+        width: 25%;
+
+        &:hover {
+            box-shadow: 5px 5px 8px #cececec4;
+        }
+    }
+
+    .form-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 30px;
+    }
+}

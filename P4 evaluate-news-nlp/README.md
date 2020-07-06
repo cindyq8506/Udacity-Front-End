@@ -27,3 +27,6 @@ The [Aylien API](https://aylien.com/) is a new Text Analysis API of Natural Lang
 5. For start the server you should run that command in the terminal: `npm start`
     * The server should start on http://localhost:8000/ on your browser
 6. Use `npm run test` for test the project with jest
+
+## Revised
+ Jest is installed and you have written unit tests.
